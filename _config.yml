@@ -1,0 +1,74 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+### content configuration ###
+title:       "Ricardo I. Alcala Briseno - Virus disease ecology"
+keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
+description: "A personal website of Ricardo I. Alcala"
+source_link: "https://mattocci27.github.io"
+favicon:     "img/favicon-msu.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+highlighter: rouge
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  dark:      '#313437'
+  lightgray: '#E0E0E0'
+  #white:     '#f8f8f8'
+  white:     '#ffffff'
+  white0:    '#faf6ec'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
+
+plugins: ['jekyll/scholar']
+
+# Pagination
+#paginate: 15
+#permalink: /blog/:year/:title/
+#paginate_path: /blog/post:num/
+
+# Bibliography settings
+scholar:
+  last_name: Alcal\'a-Brise\~no
+
+  #style: cell 
+  locale: en
+  #bibliography_list_tag: ol
+  #bibliography_item_tag: li
+
+  sort_by: year,month
+  order: descending,descending
+
+  source: ./_bibliography
+  bibliography: works.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+#
