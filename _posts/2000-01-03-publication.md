@@ -3,11 +3,11 @@ title: "PUBLICATION"
 bg: white
 color: dark
 fa-icon: book
-years: [2018, 2017, 2016, 2015, 2014, 2013, 2012, 2008]
+years: [2018, 2017, 2016, 2015, 2011]
 ---
 
 <!-- <p>
-<a href="https://scholar.google.com/citations?user=ZF7iS6UAAAAJ&hl=en">
+<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en">
   <i  class="ai ai-google-scholar fa-1x"></i>
    Google Scholar
 </a>
