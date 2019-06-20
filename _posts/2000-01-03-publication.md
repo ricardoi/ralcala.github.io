@@ -7,7 +7,7 @@ years: [2018, 2017, 2016, 2015, 2011]
 ---
 
 <!-- <p>
-<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en">
+<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl"
   <i  class="ai ai-google-scholar fa-1x"></i>
    Google Scholar
 </a>
