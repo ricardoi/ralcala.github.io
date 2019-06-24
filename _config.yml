@@ -51,7 +51,7 @@ plugins: ['jekyll/scholar']
 scholar:
   last_name: Alcala-Briseno
 
-  #style: cell 
+  #style: cell
   locale: en
   #bibliography_list_tag: ol
   #bibliography_item_tag: li
@@ -59,7 +59,7 @@ scholar:
   sort_by: year,month
   order: descending,descending
 
-  source: ./_bibliography
+  source: ._/bibliography
   bibliography: works.bib
   bibliography_template: bib
 
