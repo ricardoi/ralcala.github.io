@@ -795,18 +795,6 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-publication { border-color: #ffffff; }
-  #publication { background-color: #ffffff !important; color: #313437; }
-  /*#publication a { color: #313437; } */
-  #publication a { color: #409e6e; }
-  #publication .more-icons i{ color: #313437; } */
-  #publication .sectiondivider { color: #ffffff; }
-  #publication .container p, .container ol, .container ul {
-  font-size:  ; }
-
-  
-  
-  
   nav .p-research { border-color: #faf6ec; }
   #research { background-color: #faf6ec !important; color: #313437; }
   /*#research a { color: #313437; } */
