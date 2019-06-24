@@ -3,8 +3,9 @@ title: "PUBLICATION"
 bg: white
 color: dark
 fa-icon: book
-years: [2017]
+years: [2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
 ---
+
 ## -submitted/preprint-
 
 {% bibliography -q @unpublished %}
@@ -13,7 +14,6 @@ years: [2017]
   <h3 class="year"><font size="+3">-{{y}}-</font></h3>
   {% bibliography  -q !@unpublished[year={{y}}] %}
 {% endfor %}
-
 
 <!-- <p>
 <a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en"
