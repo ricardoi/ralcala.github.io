@@ -6,13 +6,13 @@ fa-icon: book
 years: [2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
 ---
 
-## -submitted/preprint-
+## -submitted-
 
-{% bibliography -q @unpublished %}
+{% bibliography %}
 
 {% for y in page.years %}
   <h3 class="year"><font size="+3">-{{y}}-</font></h3>
-  {% bibliography  -q !@unpublished[year={{y}}] %}
+  {% bibliography %}
 {% endfor %}
 
 <!-- <p>
