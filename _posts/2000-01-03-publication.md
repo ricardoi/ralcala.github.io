@@ -14,9 +14,9 @@ years: [2019, 2018, 2017]
 </p> -->
 ##  -- recent publications --
 
-{% @article -q @unpublished %}
+{% bibliography @unpublished %}
 
 {% for y in page.years %}
   <h3 class="year"><font size="+3">-{{y}}-</font></h3>
-  {% @article  -q !@unpublished[year={{y}}] %}
+  {% bibliography !@unpublished[year={{y}}] %}
 {% endfor %}
