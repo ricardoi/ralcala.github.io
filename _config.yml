@@ -48,7 +48,7 @@ plugins: ['jekyll/scholar']
 
 # Bibliography settings
 scholar:
-  last_name: Alcala-Briseno
+  last_name: Alcal\'a-Brise\~no
 
   #style: cell
   locale: en
