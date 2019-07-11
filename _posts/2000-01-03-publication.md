@@ -7,12 +7,12 @@ years: [2019, 2018, 2017]
 ---
 
 <!-- <p>
-<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en"
+<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en&authuser=1"
   <i  class="ai ai-google-scholar fa-1x"></i>
    Google Scholar
 </a>
 </p> -->
-## -- recent publications--
+## -- recent publications --
 
 {% bibliography -q @unpublished %}
 
