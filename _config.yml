@@ -16,7 +16,7 @@ markdown: kramdown
 title:       "Ricardo I. Alcala Briseno - Virus disease ecology"
 keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
 description: "A personal website of Ricardo I. Alcala"
-source_link: "https://ralcala.github.io"
+source_link: "https://ricardoi.github.io"
 favicon:     "img/UF-logo.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
