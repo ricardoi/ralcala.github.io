@@ -3,7 +3,7 @@
 
 <div class="ref">
 <!-- Title -->
-<div class="title">{{entry.title}}</div> 
+<div class="title">{{entry.title}}</div>
   <!-- List of authors -->
   <div class="author">
    {% assign author_num = entry.author_array.size %}
@@ -60,15 +60,15 @@
 
   <!-- Links -->
   {% if entry.doi %}
-  <span class="label"> 
+  <span class="label">
   <a href="http://doi.org/{{ entry.doi }}">
     <i class="ai ai-doi"></i> {{ entry.doi }} </a>
   </span>
   {% endif %}
 
   {% if entry.git %}
-  <span class="label"> 
-  <a href="https://github.com/mattocci27/{{ entry.git }}">
+  <span class="label">
+  <a href="https://github.com/ricardoi/{{ entry.git }}">
     <i class="fa fa-github"></i> Github </a>
   </span>
   {% endif %}
@@ -78,6 +78,3 @@
 data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></span> --->
 
 </div>
-
-
-

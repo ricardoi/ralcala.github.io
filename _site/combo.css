@@ -759,12 +759,12 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-post { border-color: #faf6ec; }
-  #post { background-color: #faf6ec !important; color: #313437; }
+  nav .p-post { border-color: #ffffff; }
+  #post { background-color: #ffffff !important; color: #313437; }
   /*#post a { color: #313437; } */
   #post a { color: #409e6e; }
   #post .more-icons i{ color: #313437; } */
-  #post .sectiondivider { color: #faf6ec; }
+  #post .sectiondivider { color: #ffffff; }
   #post .container p, .container ol, .container ul {
   font-size:  ; }
 
