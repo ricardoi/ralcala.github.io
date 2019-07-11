@@ -1,5 +1,5 @@
 ---
-title: "PUBLICATION"
+title: "publication"
 bg: white
 color: dark
 fa-icon: book
