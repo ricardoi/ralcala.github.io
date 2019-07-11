@@ -6,6 +6,12 @@ fa-icon: book
 years: [2019, 2018, 2017]
 ---
 
+<!-- <p>
+<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en"
+  <i  class="ai ai-google-scholar fa-1x"></i>
+   Google Scholar
+</a>
+</p> -->
 ## -- recent publications--
 
 {% bibliography -q @unpublished %}
@@ -14,11 +20,3 @@ years: [2019, 2018, 2017]
   <h3 class="year"><font size="+3">-{{y}}-</font></h3>
   {% bibliography -q !@unpublished[year={{y}}] %}
 {% endfor %}
-
-
-<!-- <p>
-<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en"
-  <i  class="ai ai-google-scholar fa-1x"></i>
-   Google Scholar
-</a>
-</p> -->
