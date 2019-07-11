@@ -17,7 +17,7 @@ title:       "Ricardo I. Alcala Briseno - Virus disease ecology"
 keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
 description: "A personal website of Ricardo I. Alcala"
 source_link: "https://ralcala.github.io"
-favicon:     "img/favicon-msu.ico"
+favicon:     "img/UF-logo.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 highlighter: rouge
@@ -28,9 +28,8 @@ colors:
   black:     '#111111'
   dark:      '#313437'
   lightgray: '#E0E0E0'
-  #white:     '#f8f8f8'
   white:     '#ffffff'
-  white0:    '#faf6ec'
+  white0:    '#ebebeb'
   blue:      '#49a7e9'
   green:     '#9bcf2f'
   purple:    '#c869bf'
