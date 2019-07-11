@@ -1,4 +1,4 @@
-Code for Ricardo I Alcala's website [ralcala.github.io](https://ralcala.github.io/).
+Code for Ricardo I Alcala's website [ricardoi.github.io](https://ricardoi.github.io/ricardoi.github.io).
 
 Clone from [matocci27.github.io](https://mattocci27.github.io/) -> modified from [t413.com/SinglePaged](https://github.com/t413/SinglePaged).
 
