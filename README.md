@@ -4,8 +4,8 @@ Clone from [matocci27.github.io](https://github.com/mattocci27/mattocci27.github
 
 
 ## Requirements
-- Ruby
-- Bundler
+- Ruby --> brew install ruby [preferred]
+- Bundler --> gem install bundler [preferred]
 - gem packages in Gemfile
 
 ```shell
@@ -16,6 +16,8 @@ Clone from [matocci27.github.io](https://github.com/mattocci27/mattocci27.github
 ## Usage
 
 ```rake publish``` will generate and publish website to gh-pages. I need this step because the [default Github pages workflow](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) does not allow most of the plugins to run for security reasons.
+
+```git push -f``` push the code to gh-pages. I need this step because I am having a liquid tag problem that does not push locally the code.
 
 ## to do
 - markdown for software page
