@@ -7,7 +7,7 @@ years: [2020, 2019, 2018]
 ---
 
 <!-- <p>
-<a href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en&authuser=1">
+<a href="<link rel="canonical" href="http://scholar.google.com/citations?user=SkBxudIAAAAJ&amp;hl=en">
   <i class="ai ai-google-scholar fa-1x"></i>
    Google Scholar
 </a>
