@@ -6,11 +6,12 @@ fa-icon: book
 years: [2020, 2019, 2018]
 ---
 
-<!--<p>
+<!-- <p>
+<a
 href="https://scholar.google.com/citations?user=SkBxudIAAAAJ&hl=en&authuser=1">
   <i  class="ai ai-google-scholar fa-1x"></i>
-   Google Scholar
-</p>-->
+</a>
+</p> -->
 ##  -- prepints & recent publications --
 
 { % bibliography -q @unpublished % }
