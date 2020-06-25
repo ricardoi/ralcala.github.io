@@ -23,7 +23,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.13.0"
+   gem "jekyll-feed", "~> 0.11.0"
    gem "jekyll-scholar", "~> 6.5.0"
 end
 
