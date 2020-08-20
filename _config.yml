@@ -38,7 +38,7 @@ colors:
 
 ### Build settings
 ## kramdown
-  auto_ids: false
+auto_ids: false
 permalink: pretty
 plugins: ['jekyll/scholar']
 github: [metadata]
