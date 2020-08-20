@@ -37,7 +37,7 @@ colors:
   turquoise: '#0fbfcf'
 
 ### Build settings
-kramdown
+## kramdown
   auto_ids: false
 permalink: pretty
 plugins: ['jekyll/scholar']
