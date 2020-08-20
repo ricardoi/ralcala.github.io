@@ -12,7 +12,7 @@ years: [2020, 2019, 2018]
    Google Scholar
 </a>
 </p> -->
-##  -- prepints & recent publications --
+##  -- prepints and recent publications --
 
 {% bibliography -q @unpublished %}
 {% for y in page.years %}
