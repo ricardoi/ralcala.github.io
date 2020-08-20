@@ -36,8 +36,10 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
 
-kramdown:
+### Build settings
+mardown: kramdown
   auto_ids:  false
+permalink: pretty
 
 plugins: ['jekyll/scholar']
 
