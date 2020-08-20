@@ -37,11 +37,11 @@ colors:
   turquoise: '#0fbfcf'
 
 ### Build settings
-mardown: kramdown
-#auto_ids: false
+kramdown
+  auto_ids: false
 permalink: pretty
-
 plugins: ['jekyll/scholar']
+github: [metadata]
 
 # Pagination
 #paginate: 15
