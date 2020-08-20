@@ -10,7 +10,8 @@ GITHUB_REPONAME = "ricardoi/ralcala.github.io"
 
 
 desc "Generate blog files"
-task :generate do
+#task :generate do
+task :default => :test
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
     "destination" => "_site"
