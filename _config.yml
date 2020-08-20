@@ -40,6 +40,12 @@ colors:
 #auto_ids: false
 permalink: pretty
 plugins: ['jekyll/scholar']
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 #         ['jekyll-feed']
 github: [metadata]
 
