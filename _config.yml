@@ -20,7 +20,6 @@ source_link: "https://ricardoi.github.io"
 favicon:     "img/UF-logo.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 ## put YOUR key here to enable tracking! (blank to disable)
-highlighter: rouge
 
 
 ### template colors, used site-wide via css ###
