@@ -38,11 +38,10 @@ colors:
 
 ### Build settings
 ## kramdown
-theme: minima
-auto_ids: false
+#auto_ids: false
 permalink: pretty
 plugins: ['jekyll/scholar']
-         ['jekyll-feed']
+#         ['jekyll-feed']
 github: [metadata]
 
 # Pagination
