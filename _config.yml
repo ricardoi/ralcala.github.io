@@ -50,7 +50,7 @@ plugins: ['jekyll/scholar']
 # Pagination
 #paginate: 15
 #permalink: /blog/:year/:title/
-#paginate_path: /blog/post:num/
+paginate_path: "/blog/post:num/"
 
 # Bibliography settings
 scholar:
