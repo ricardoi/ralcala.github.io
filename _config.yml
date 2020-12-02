@@ -24,21 +24,20 @@ google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 #put YOUR key her
 
 ### template colors, used site-wide via css ###
 colors:
-  black: "#111111"
-  dark: "#313437"
+  black:     "#111111"
+  dark:      "#313437"
   lightgray: "#E0E0E0"
-  white: "#ffffff"
-  white0: "#ebebeb"
-  blue: "#49a7e9"
-  green: "#9bcf2f"
-  purple: "#c869bf"
-  orange: "#fab125"
+  white:     "#ffffff"
+  white0:    "#ebebeb"
+  blue:      "#49a7e9"
+  green:     "#9bcf2f"
+  purple:    "#c869bf"
+  orange:    "#fab125"
   turquoise: "#0fbfcf"
 
 
 kramdown:
   auto_ids: false
-
 
 
 plugins: ["jekyll/scholar"]
@@ -73,7 +72,7 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
+  details_dir: _bibliography
   details_layout: bibtex.html
   details_link: details
 
