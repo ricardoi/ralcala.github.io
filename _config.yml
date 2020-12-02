@@ -6,20 +6,21 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore, vendor]
+exclude: ['CNAME, README.md, .gitignore, vendor']
 permalink: /:title #disables post output
 timezone: null
 lsi: false
 markdown: kramdown
 
 ### content configuration ###
-title: "Ricardo I Alcala Briseno - Virus disease ecology"
-keywords: "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
+title:       "Ricardo I Alcala Briseno - Virus disease ecology"
+keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
 description: "A personal website of Ricardo I Alcala"
 source_link: "https://ricardoi.github.io"
-favicon: "img/UF-logo.ico"
-touch_icon: "img/apple-touch-icon.png"
+favicon:     "img/UF-logo.ico"
+touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 #put YOUR key here to enable tracking! (blank to disable)
+highlighter: rouge
 
 
 ### template colors, used site-wide via css ###
@@ -35,12 +36,10 @@ colors:
   orange:    "#fab125"
   turquoise: "#0fbfcf"
 
-
 kramdown:
-  auto_ids: false
+  auto_ids:  false
 
-
-plugins: ["jekyll/scholar"]
+plugins: ['jekyll/scholar']
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -70,11 +69,11 @@ scholar:
   bibliography_template: bib
 
   replace_strings: true
-  join_strings: true
+  join_strings:    true
 
-  details_dir: _bibliography
+  details_dir:    _bibliography
   details_layout: bibtex.html
-  details_link: details
+  details_link:   details
 
   query: "@*"
-#
+  #
