@@ -39,7 +39,15 @@ colors:
 kramdown:
   auto_ids: false
 
+
+
 plugins: ['jekyll/scholar']
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Pagination
 #paginate: 15
