@@ -7,15 +7,15 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore, vendor]
-permalink: /:title ## disables post output
+permalink: /:title #disables post output
 timezone: null
 lsi: false
 markdown: kramdown
 
 ### content configuration ###
-title: "Ricardo I. Alcala Briseno :: Virus disease ecology"
+title: "Ricardo I Alcala Briseno - Virus disease ecology"
 keywords: "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
-description: "A personal website of Ricardo I. Alcala"
+description: "A personal website of Ricardo I Alcala"
 source_link: "https://ricardoi.github.io"
 favicon: "img/UF-logo.ico"
 touch_icon: "img/apple-touch-icon.png"
@@ -34,6 +34,7 @@ colors:
   purple: '#c869bf'
   orange: '#fab125'
   turquoise: '#0fbfcf'
+
 
 ### Build settings
 ## kramdown
