@@ -48,7 +48,7 @@ plugins: ['jekyll/scholar']
 - jemoji
 - jekyll-include-cache
 #['jekyll-feed']
-github: [metadata]
+#github: ['metadata']
 
 # Pagination
 #paginate: 15
@@ -78,5 +78,5 @@ scholar:
   details_layout: bibtex.html
   details_link: details
 
-  query: '@*'
+  query: "@*"
 #
