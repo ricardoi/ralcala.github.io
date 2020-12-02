@@ -13,26 +13,26 @@ lsi: false
 markdown: kramdown
 
 ### content configuration ###
-title:       "Ricardo I. Alcala Briseno - Virus disease ecology"
-keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
+title: "Ricardo I. Alcala Briseno - Virus disease ecology"
+keywords: "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
 description: "A personal website of Ricardo I. Alcala"
 source_link: "https://ricardoi.github.io"
-favicon:     "img/UF-logo.ico"
-touch_icon:  "img/apple-touch-icon.png"
+favicon: "img/UF-logo.ico"
+touch_icon: "img/apple-touch-icon.png"
 google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
-  dark:      '#313437'
+  black: '#111111'
+  dark: '#313437'
   lightgray: '#E0E0E0'
-  white:     '#ffffff'
-  white0:    '#ebebeb'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
+  white: '#ffffff'
+  white0: '#ebebeb'
+  blue: '#49a7e9'
+  green: '#9bcf2f'
+  purple: '#c869bf'
+  orange: '#fab125'
   turquoise: '#0fbfcf'
 
 ### Build settings
@@ -71,11 +71,11 @@ scholar:
   bibliography_template: bib
 
   replace_strings: true
-  join_strings:    true
+  join_strings: true
 
-  details_dir:    bibliography
+  details_dir: bibliography
   details_layout: bibtex.html
-  details_link:   Details
+  details_link: details
 
   query: "@*"
 #
