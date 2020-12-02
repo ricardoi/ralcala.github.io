@@ -36,19 +36,10 @@ colors:
   turquoise: '#0fbfcf'
 
 
-### Build settings
 ## kramdown
-#auto_ids: false
-permalink: pretty
+   auto_ids: false
+
 plugins: ['jekyll/scholar']
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
-- jekyll-include-cache
-#['jekyll-feed']
-#github: ['metadata']
 
 # Pagination
 #paginate: 15
