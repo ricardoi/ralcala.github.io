@@ -13,7 +13,7 @@ lsi: false
 markdown: kramdown
 
 ### content configuration ###
-title: "Ricardo I. Alcala Briseno - Virus disease ecology"
+title: "Ricardo I. Alcala Briseno :: Virus disease ecology"
 keywords: "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
 description: "A personal website of Ricardo I. Alcala"
 source_link: "https://ricardoi.github.io"
@@ -46,7 +46,7 @@ plugins: ['jekyll/scholar']
 - jekyll-feed
 - jemoji
 - jekyll-include-cache
-#         ['jekyll-feed']
+#['jekyll-feed']
 github: [metadata]
 
 # Pagination
