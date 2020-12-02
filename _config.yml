@@ -36,8 +36,8 @@ colors:
   turquoise: '#0fbfcf'
 
 
-## kramdown
-   auto_ids: false
+kramdown:
+  auto_ids: false
 
 plugins: ['jekyll/scholar']
 
