@@ -6,7 +6,8 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore, vendor]
+# Build settings
+exclude: [CNAME, README.md, .gitignore]
 permalink: /:title #disables post output
 timezone: null
 lsi: false
@@ -20,23 +21,22 @@ source_link: "https://ricardoi.github.io"
 favicon:     "img/UF-logo.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 #put YOUR key here to enable tracking! (blank to disable)
-highlighter: rouge
-
+highlighter: "rouge"
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     "#111111"
-  dark:      "#313437"
-  lightgray: "#E0E0E0"
-  white:     "#ffffff"
-  white0:    "#ebebeb"
-  blue:      "#49a7e9"
-  green:     "#9bcf2f"
-  purple:    "#c869bf"
-  orange:    "#fab125"
-  turquoise: "#0fbfcf"
+  black:     '#111111'
+  dark:      '#313437'
+  lightgray: '#E0E0E0'
+  white:     '#ffffff'
+  white0:    '#ebebeb'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
   
-  kramdown:
+kramdown:
   auto_ids:  false
 
 plugins: ['jekyll/scholar']
@@ -50,7 +50,7 @@ plugins: ['jekyll/scholar']
 # Pagination
 #paginate: 15
 #permalink: /blog/:year/:title/
-paginate_path: "/blog/post:num/"
+#paginate_path: /blog/post:num/
 
 # Bibliography settings
 scholar:
@@ -71,9 +71,9 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  details_dir:    _bibliography
+  details_dir:    bibliography
   details_layout: bibtex.html
   details_link:   details
 
   query: "@*"
-  #
+ #
