@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "publication"
 bg: white
 color: dark
