@@ -1,30 +1,31 @@
 ---
 
-port: 4000
-host: 0.0.0.0
-safe: false
+  port: 4000
+  host: 0.0.0.0
+  safe: false
 
 
 ### site serving configuration ###
 # Build settings
-exclude: [CNAME, README.md, .gitignore]
-permalink: /:slug #disables post output
-timezone: null
-lsi: false
-markdown: kramdown
+  exclude: [CNAME, README.md, .gitignore]
+  permalink: /:slug #disables post output
+  timezone: null
+  lsi: false
+  markdown: kramdown
 
 ### content configuration ###
-title:       "Ricardo I Alcala Briseno - Virus disease ecology"
-keywords:    "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
-description: "A personal website of Ricardo I Alcala"
-source_link: "https://ricardoi.github.io"
-favicon:     "img/UF-logo.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 #put YOUR key here to enable tracking! (blank to disable)
-highlighter: "rouge"
+  title: "Ricardo I Alcala Briseno - Virus disease 
+ecology"
+  keywords: "virus discovery, virus metagenomics, funtional diversity, community ecology, network analysis"
+  description: "Personal website of Ricardo I Alcala"
+  source_link: "https://ricardoi.github.io"
+  favicon: "img/UF-logo.ico"
+  touch_icon: "img/apple-touch-icon.png"
+  google_analytics_key: 3d73f6c4a7f91f185cfff7311a4746fa35d68a17 #put YOUR key here to enable tracking! (blank to disable)
+  highlighter: "rouge"
 
 ### template colors, used site-wide via css ###
-colors:
+  colors:
   black:     '#111111'
   dark:      '#313437'
   lightgray: '#E0E0E0'
@@ -36,16 +37,16 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
 
-kramdown:
+  kramdown:
   auto_ids:  false
 
-plugins: ['jekyll/scholar']
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+  plugins: ['jekyll/scholar']
+#- jekyll-paginate
+#- jekyll-sitemap
+#- jekyll-gist
+#- jekyll-feed
+#- jemoji
+#- jekyll-include-cache
 
 # Pagination
 #paginate: 15
@@ -53,7 +54,7 @@ plugins: ['jekyll/scholar']
 #paginate_path: /blog/post:num/
 
 # Bibliography settings
-scholar:
+  scholar:
   last_name: Alcala-Briseno
 
   #style: cell
