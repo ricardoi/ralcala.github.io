@@ -67,14 +67,14 @@ ecology"
 
   source: ./_bibliography
   bibliography: works.bib
-  bibliography_template: bib
+  bibliography_template: bin
 
   replace_strings: true
   join_strings:    true
 
-  details_dir:    bibliography
+  details_dir: bibliography
   details_layout: bibtex.html
-  details_link:   details
+  details_link: details
 
   query: "@*"
 #
