@@ -4,7 +4,6 @@ bg: white
 color: dark
 fa-icon: book
 years: [2020, 2019, 2018]
----
 
 
 ## -- prepints and recent publications --
